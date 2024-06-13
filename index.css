@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    max-width: 600px;
+    max-height: 1200px;
+}
+
+.frame {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 19px;
+}
+
+.header img {
+    width: 50px;
+    height: 42px;
+}
+
+.line-header {
+    border-bottom: 2px solid #F3F3F3;
+    margin: 0 24px;
+}
+
+.container {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    color: #1C1E23;
+}
+
+.container h1 {
+    margin: 20px 24px;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.card-button {
+    padding: 16px 50px 16px 50px;
+    background-color: #489DFF;
+    border: 0;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #4987CE;
+}
+
+.card-price {
+    color: #489DFF;
+    font-size: 14pt;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container p {
+    margin-top: 10px;
+    color: #333333;
+    font-size: 17pt;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.footer {
+    margin: 24px 0;
+}
+
+
+a {
+    display: inline-block;
+    margin: 12px;
+}
+
+.frame2 {
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.footer-social img {
+    margin-top: 15px;
+    height: 18px;
+}
+
+.footer p {
+    font-family: "Poppins", sans-serif;
+    color: #525F7F;
+    text-align: center;
+}
+
+.footer-text {
+    margin-top: 15px;
+}
+
+.footer-text span {
+    color: #489DFF;
+}
+
+.cart {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #489DFF;
+    padding: 10px 20px;
+    min-width: 200px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+
+
+
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-cart {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+}
