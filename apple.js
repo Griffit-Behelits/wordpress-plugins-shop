@@ -44,7 +44,7 @@ btnArray.forEach((btn) => {
         totalPriceElement.innerText = totalPrice + '$'
     });
 })
-
+console.log('1')
 
 
 
